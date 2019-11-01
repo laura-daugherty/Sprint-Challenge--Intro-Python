@@ -6,16 +6,26 @@ class GroundVehicle():
     return("vroooom")
 
 class Motorcycle(GroundVehicle):
+  
+
   def __init__(self):
     self.num_wheels = 2
 
   def drive(self):
     return("BRAAAP!!")
 
-# vehicles = [
-#   GroundVehicle(),
-#   GroundVehicle(),
-#   Motorcycle(),
-#   GroundVehicle(),
-#   Motorcycle(),
-# ]
+vehicles = [
+  GroundVehicle(),
+  GroundVehicle(),
+  Motorcycle(),
+  GroundVehicle(),
+  Motorcycle(),
+]
+
+# Go through the vehicles list and print the result of calling drive() on each.
+
+tesla = GroundVehicle()
+print(tesla.drive())
+
+harley = Motorcycle()
+print(harley.drive())
