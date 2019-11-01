@@ -12,6 +12,7 @@
 #
 # Store the instances in the "cities" list, below.
 #
+#change
 # Note that the first line of the CSV is header that describes the fields--this
 # should not be loaded into a City object.
 cities = []
