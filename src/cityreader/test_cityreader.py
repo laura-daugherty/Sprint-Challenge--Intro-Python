@@ -78,6 +78,11 @@ class CityreaderTests(unittest.TestCase):
     
   def test_cityreader_correctness(self):
     for i in range(len(self.cities)):
+      print("shgfjuf")
+      print(self.cities[i].name, self.expected[i].name)
+      print(self.cities[i].lon, self.expected[i].lon)
+      print(self.cities[i].lat, self.expected[i].lat)
+      print(check_city(self.cities[i], self.expected[i]))
       self.assertTrue(check_city(self.cities[i], self.expected[i]))
 
 
