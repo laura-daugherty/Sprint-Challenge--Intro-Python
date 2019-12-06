@@ -42,6 +42,22 @@ output = cityreader(cities)
 for c in output:
     print(c)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # STRETCH GOAL!
 #
 # Allow the user to input two points, each specified by latitude and longitude.
